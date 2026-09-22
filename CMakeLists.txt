@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.16)
+project(coursework LANGUAGES CXX)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+add_executable(calculator cpp/calculator/main.cpp)
+add_executable(chada-clocks cpp/chada-clocks/main.cpp)
+add_executable(investment-calculator cpp/investment-calculator/bankingMain.cpp cpp/investment-calculator/banking.cpp)
+add_executable(temperature-converter cpp/temperature-converter/FahrenheitToCelsius.cpp)
